@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #2c70ff;
+}
+
+.header .logo {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    font-size: 2rem;
+}
+
+.menu li a {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    transition: 0.3s ease-in-out;
+    color: #10327b;
+}
+
+.introducao {
+    display: block;
+    padding: 60px 10px;
+    margin: 0 160px;
+    font-size: 4rem;
+}
