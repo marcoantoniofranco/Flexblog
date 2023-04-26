@@ -6,6 +6,22 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.superinfo-bg {
+    background-color: #122ab2;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+.superinfo-bg .superinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}
+
+.superinfo-bg .superinfo a {
+    color: #ffffff;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -42,4 +58,10 @@ body {
     padding: 60px 10px;
     margin: 0 160px;
     font-size: 4rem;
+}
+
+.sobre .sobre-info p {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #7c7c7c;
 }
