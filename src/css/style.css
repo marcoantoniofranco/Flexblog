@@ -4,6 +4,15 @@ html {
 
 body {
     font-family: "Nunito", sans-serif;
+    height: 1000px;
+}
+
+.alinhamento {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
 }
 
 .superinfo-bg {
@@ -13,9 +22,7 @@ body {
 }
 
 .superinfo-bg .superinfo {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px 10px 10px;
+    padding: 10px 10px;
 }
 
 .superinfo-bg .superinfo a {
@@ -23,14 +30,12 @@ body {
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     padding: 15px;
     background-color: #2c70ff;
 }
 
 .header .logo {
+    margin: 0 10px;
     font-size: 1.8rem;
     color: #ffffff;
 }
@@ -62,6 +67,6 @@ body {
 
 .sobre .sobre-info p {
     font-size: 2rem;
-    margin-bottom: 5px;
+    margin: 0 10px 10px;
     color: #7c7c7c;
 }
