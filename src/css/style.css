@@ -4,7 +4,14 @@ html {
 
 body {
     font-family: "Nunito", sans-serif;
-    height: 1000px;
+    height: 1500px;
+}
+
+.alinhamento-padro {
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    flex-wrap: wrap;
 }
 
 .alinhamento {
@@ -58,20 +65,52 @@ body {
     color: #10327b;
 }
 
+.header .logo h1:hover {
+    transition: 0.3s ease-in-out;
+    color: #c8c7c7;
+}
+
 .introducao {
-    max-width: 960px;
     padding: 60px 10px;
-    margin: 0 auto;
     font-size: 4.8rem;
     line-height: 1;
+    border-bottom: 2px solid #2c70ff;
 }
 
 .sobre {
-    border-top: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom: 2px solid #2c70ff;
+    padding: 60px 0;
+}
+
+.sobre h1 {
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
 }
 
 .sobre .sobre-info p {
     font-size: 2rem;
-    margin: 0 10px 10px;
+    margin: 0 10px;
     color: #7c7c7c;
+    margin-bottom: 0.8rem;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+}
+
+.sobre-img {
+    margin: 0 10px;
+    flex: 1 1 160px;
+}
+
+.produtos {
+    margin: 60px auto;
+}
+
+.produtos h1 {
+    font-size: 4.8rem;
+    margin: 0 10px 60px 10px;
+    width: 100%;
 }
