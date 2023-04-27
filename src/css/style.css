@@ -59,10 +59,15 @@ body {
 }
 
 .introducao {
-    display: block;
+    max-width: 960px;
     padding: 60px 10px;
-    margin: 0 160px;
-    font-size: 4rem;
+    margin: 0 auto;
+    font-size: 4.8rem;
+    line-height: 1;
+}
+
+.sobre {
+    border-top: 2px solid #2c70ff;
 }
 
 .sobre .sobre-info p {
